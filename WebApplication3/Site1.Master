@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PBIE_RLS_Sample.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .newStyle1 {
+            font-family: "segoe ui light";
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body style="align-content:center;vertical-align:top;" class="newStyle1">
+
+    <form id="form1" runat="server">
+    <div>
+        <table align="center">
+            <tr>
+                <td class="auto-style1">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style1">&nbsp;</td>
+                <td>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style1">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
