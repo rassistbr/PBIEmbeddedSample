@@ -31,7 +31,7 @@
             <td style="text-align: center; font-size: x-large">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 397px; text-align: center; font-size: x-large; height: 45px;">Sellers</td>
+            <td style="width: 397px; text-align: center; font-size: x-large; height: 45px;">Users(Sellers)</td>
             <td style="text-align: center; font-size: x-large; height: 45px;">Main Report - Sales Analysis</td>
         </tr>
         <tr>
