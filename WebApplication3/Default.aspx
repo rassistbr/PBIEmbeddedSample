@@ -63,12 +63,10 @@
     </table>
     <hr />
     <asp:HiddenField ID="selectedUser" runat="server" Value="" />
+    <asp:HyperLink ID="HyperLink1" runat="server" ImageHeight="50px" ImageUrl="~/GitHub_Logo.png" NavigateUrl="https://github.com/rassistbr/personalprojects/tree/dev" Target="_blank">https://github.com/rassistbr/personalprojects/tree/dev</asp:HyperLink>
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DB4TestsConnectionString %>" SelectCommand="SELECT DISTINCT A.SalesPerson FROM SalesLT.Customer AS A INNER JOIN SalesLT.SalesOrderHeader AS B ON A.CustomerID = B.CustomerID WHERE (B.TotalDue &gt; 0)"></asp:SqlDataSource>
 
 
-    <asp:LinkButton ID="LinkButton1" runat="server">LinkButton</asp:LinkButton>
-
-
-</asp:Content>
+    </asp:Content>
 
 
